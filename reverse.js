@@ -6,4 +6,4 @@ function reverse(word) {
     return flipWord.join('');
 }
 
-module exports = reverse;
+module.exports = reverse;
