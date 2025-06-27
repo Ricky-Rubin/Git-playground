@@ -1,8 +1,9 @@
 const calculate = require('./calculate');
+const answer = calculate(12, 4);
 
 test('A function to do basic math operations', () => {
-    expect(calculate(6, 2, '+')).toBe(8);
-    expect(calculate(6, 2, '-')).toBe(4);
-    expect(calculate(6, 2, '/')).toBe(3);
-    expect(calculate(6, 2, '*')).toBe(12);
+    expect(answer.Sum).toBe(16);
+    expect(answer.Multiplication).toBe(48);
+    expect(answer.Subtraction).toBe(8);
+    expect(answer.Division).toBe(3)
 });
