@@ -5,5 +5,5 @@ const result = analyzeArray([6, 2, 4, 1, 8, 3]);
         expect(result.Average).toBe(4);
         expect(result.Min).toBe(1);
         expect(result.Max).toBe(8);
-        expect(result.length).toBe(6);
+        expect(result.Length).toBe(6);
     });
