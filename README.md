@@ -1,1 +1,2 @@
 # Git-playground
+This project is part of [The Odin Project's Fullstack JavaScript Course](https://theodinproject.com/). It helps the student to exercise their knowlegde of certain git functions and unit testing in JavaScript. 
